@@ -1,0 +1,25 @@
+.container {
+    margin-top: 40px;
+}
+.circle{
+    width:30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 200px;
+    margin: 5px;
+    opacity: 0.2;
+}
+.circle.red{
+    background: #e74c3c;
+}
+
+.circle.green{
+    background: #2ecc71;
+}
+.circle.yellow{
+    background: #e67e22;
+}
+.circle.active, .circle.timer{
+    opacity: 1;
+    text-align: center;
+}
